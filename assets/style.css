@@ -1,0 +1,145 @@
+/*Variáveis*/
+:root {
+  --bgSite: #f6f6f6;
+  --bgCard: #ebe9ea;
+
+  --white: #fff;
+
+  --title: #181818;
+  --text: #474747;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button,
+input {
+  border: 0;
+}
+button:focus,
+input:focus {
+  border: 0;
+}
+
+.superinfo-bg {
+  background-color: var(--title);
+  color: var(--white);
+}
+
+.super-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-bg {
+  background-color: var(--white);
+  color: var(--title);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.wallpapper {
+  background-image: url(img/wallpaper.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  filter: brightness(50%);
+}
+
+.title-sub {
+  min-width: 200px;
+}
+
+.texto {
+  position: relative;
+  bottom: 40vh;
+  left: 5vw;
+  min-height: 200px;
+  max-height: 200px;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  width: 90%;
+}
+
+.texto p {
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.destaques {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: -150px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: var(--bgCard);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+footer {
+  background-color: var(--title);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
